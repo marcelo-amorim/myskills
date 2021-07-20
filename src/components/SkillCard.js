@@ -6,7 +6,6 @@ import {
 } from 'react-native';
 
 export function SkillCard({ skill }) {
-  console.log('renederizou skill:', skill)
   return (
     <TouchableOpacity style={styles.buttonSkill}
     >
